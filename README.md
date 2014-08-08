@@ -1,4 +1,14 @@
-UsandoGithubComRStudio
-======================
+# Usando o Github com RStudio
+#### by Raul Ossada
 
-Repositório do livro: Usando o Github com RStudio
+Versão 0.0.0 -- "Coruja Mal-lavada"
+
+***
+
+O objetivo deste livro é guiá-lo sobre como instalar o Github e o RStudio, e mostrar rapidamente como você pode usá-los em conjunto.
+
+Observação do autor:
+
+Por enquanto, esse tutorial supõe que você sabe o que é o Git, o Github, o R, o RStudio, o Gitbook e o RGitbook.
+
+(Ou que pelo menos você irá procurar o que são essas coisas num futuro próximo XD)
