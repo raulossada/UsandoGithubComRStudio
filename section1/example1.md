@@ -10,5 +10,5 @@
 3) Abra o **Git Shell** e configure o Git, digitando os seguintes comandos globais:
 ``` 
 git config –-global user.name “seu nome de usuário do GitHub”
-git config –-global user.email “GitHubEmail@algumLugar.com”
+git config –-global user.email “GitHubEmail@seuProvedorDeEmail.com”
 ``` 

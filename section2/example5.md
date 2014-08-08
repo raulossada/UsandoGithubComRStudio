@@ -5,13 +5,6 @@ Pelo jeito, você ficou curioso para saber o que faremos com os arquivos que fiz
 
 Primeiro, vamos editar o arquivo ``ArquivoGithub1.txt``:
 
-````
-``![Teste](figuras/images.jpg)``
-``<img style="float:right" src="figuras/images.jpg" />``
-<img src="figuras/images.jpg" align="top" /> lalalala.
-````
-
-
 Observe que após salvar as suas modificações, o arquivo ``ArquivoGithub1.txt`` aparece na aba Git com o status **Modified** (A letra M envolto por uma caixa azul) - [Modificado]; Indicando que o arquivo foi modificado.
 
 ![RstudioMod1](figuras/FiguraZ_Status_Parte2b.png)
@@ -45,14 +38,4 @@ E se o ArquivoGithub1.txt foi modificado:
 
 ![RstudioMod7](figuras/FiguraZ_Status_Parte17b.png)
 
-***************
-
-NOTA: Opções de escrita do texto:
-
-0. Estilo passivo: - Você pode fazer isso, ou aquilo, e nós levaremos a glória.
-
-1. Estilo somos um time: - Nós vamos fazer isso, aquilo, bla bla bla
-
-2. Estilo eu, eu mesmo e só eu: -Eu vou fazer isso e aquilo, porque eu quero.
-
-3. Estilo manda-chuva: - Faça isso, aquilo, já rápido!
+***
