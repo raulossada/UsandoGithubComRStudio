@@ -2,7 +2,7 @@
 This is the summary of my book.
 
 * [Instalando](section1/README.md)
-    * [Github e Git](section1/example1.md)
+    * [Git e Github](section1/example1.md)
     * [R e RStudio](section1/example2.md)
 * [Repositórios](section2/README.md)
     * [Criando](section2/example1.md)
