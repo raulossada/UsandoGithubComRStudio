@@ -4,7 +4,7 @@ This is the summary of my book.
 * [Instalando](section1/README.md)
     * [Git e Github](section1/example1.md)
     * [R e RStudio](section1/example2.md)
-* [Repositórios](section2/README.md)
+* [Exemplo de Uso](section2/README.md)
     * [Criando](section2/example1.md)
     * [Associando](section2/example2.md)
     * [Submetendo](section2/example3.md)

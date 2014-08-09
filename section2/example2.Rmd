@@ -7,39 +7,47 @@ opts_chunk$set(prompt=TRUE, comment='', results='markup')
 
 # end setup chunk
 ```
-2.2) Acesse o RStudio e associe um projeto ao seu repositório do Github
+# Associando um repositório à um projeto
 
-File -> New project... -> Version Control -> Git -> 
+1) Abra o **RStudio**. E vá em: **File** -> **New project...** -> **Version Control**:
 
-Repository URL
+![Capitulo2_Secao2_Figura1](figuras/Capitulo2_Secao2_Figura1.png)
 
-Create project as subdirectory of:
+***
 
-Create Project
+2) Selecione a opção **Git**:
 
-![AssociaRepositorio1](figuras/Figura4_1.png)
+![Capitulo2_Secao2_Figura2](figuras/Capitulo2_Secao2_Figura2.png)
 
-Selecione a opção **"Git"**:
-![AssociaRepositorio2](figuras/Figura4_2a.png)
+***
 
-Acesse o seu repositório e copie o **HTTPS clone URL**:
-![AssociaRepositorio5](figuras/Figura4a.png)
+3) Acesse o seu repositório no [Github](https://github.com/) e copie o **HTTPS clone URL**:
 
-Cole o **HTTPS clone URL** do seu repositório no campo **Repository URL**:
-![AssociaRepositorio3](figuras/Figura4_3a.png)
+![Capitulo2_Secao2_Figura3](figuras/Capitulo2_Secao2_Figura3.png)
 
-Recomenda-se deixar o campo **Project directory name** com o mesmo nome do seu repositório.
+***
 
-No campo **Create project as subdirectory of**, através do botão **Browse...**, escolha o local onde deseja criar a pasta que irá conter os arquivos que estão no seu repositório.
+4) Cole o **HTTPS clone URL** do seu repositório no campo **Repository URL**.
 
-Crie seu projeto associado ao seu repositório do Github clicando no botão: ``Create Project``.
+5) Recomenda-se deixar o campo **Project directory name** com o mesmo nome do seu repositório.
 
-Parabéns! Você acaba de associar um repositório do Github à um projeto do RStudio.
-![AssociaRepositorio4](figuras/Figura4_4b.png)
+6) No campo **Create project as subdirectory of**, através do botão **Browse...**, escolha o local onde deseja criar a pasta que irá conter os arquivos do seu repositório.
 
-Note que o RStudio criou 2 arquivos:
+7) Clique em **Create Project**:
 
-* O ``.gitignore``, que contém uma lista de arquivos que não serão versionados pelo Github:
+![Capitulo2_Secao2_Figura4](figuras/Capitulo2_Secao2_Figura4.png)
+
+***
+
+Parabéns! Conseguimos associar um repositório do Github à um projeto do RStudio!
+
+**Note** que a aba **Git** foi adicionada, ao lado as abas Environment e History:
+
+![Capitulo2_Secao2_Figura5](figuras/Capitulo2_Secao2_Figura5.png)
+
+Além disso, foram criados 2 arquivos:
+
+* O ``.gitignore``, que contém uma lista com os arquivos que não serão versionados pelo Github:
 ```
 .Rproj.user
 .Rhistory
@@ -47,6 +55,3 @@ Note que o RStudio criou 2 arquivos:
 ```
 
 * E o ``Teste.Rproj``, que é o arquivo do RStudio que salva as informações do seu projeto.
-
-* Além disso, adicionou também a aba
-**Git**, ao lado as abas **Environment** e **History**:
