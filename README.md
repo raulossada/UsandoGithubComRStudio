@@ -12,6 +12,6 @@ O objetivo deste livro é guiá-lo sobre como instalar o Github e o RStudio, e m
 
 Observação do autor:
 
-Por enquanto, esse tutorial supõe que você sabe o que é o Git, o Github, o R, o RStudio, o Gitbook e o RGitbook.
+Por enquanto, esse tutorial supõe que você sabe o que é Gitbook e RGitbook.
 
 (Ou que pelo menos você irá procurar o que são essas coisas num futuro próximo XD)
