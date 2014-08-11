@@ -13,7 +13,7 @@ Antes de instalarmos o Rgitbook, temos que instalar outros softwares que são pr
 
 1) Baixe e instale o [Node.js](http://nodejs.org/).
 
-2) Abra o **RStudio** e instale o pacote ``devtools``, que possui uma função para instalar pacotes diretamente do Github:
+2) Abra o **RStudio** e instale o pacote ``devtools``, que possui uma função para instalar pacotes diretamente do GitHub:
 
 ```{r, eval=FALSE}
 install.packages("devtools");

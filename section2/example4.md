@@ -3,13 +3,13 @@
 
 O termo relacionado à esta ação é o: 
 
-+ **Pull** (do inglês, Puxar). Esse termo é usado quando se pega os arquivos de um repositório no Github e os salva localmente na sua máquina.
++ **Pull** (do inglês, Puxar). Esse termo é usado quando se pega os arquivos de um repositório no GitHub e os salva localmente na sua máquina.
 
 ***
 
-Nesta parte do exemplo, antes de fazer um **Pull**, vamos simular uma situação onde você teve que criar alguns arquivos diretamente no repositório do Github (ou que alguém da sua equipe submeteu alguns arquivos para o repositório).
+Nesta parte do exemplo, antes de fazer um **Pull**, vamos simular uma situação onde você teve que criar alguns arquivos diretamente no repositório do GitHub (ou que alguém da sua equipe submeteu alguns arquivos para o repositório).
 
-1) Assim sendo, acesse o seu repositório no [Github](https://github.com/) e crie um novo arquivo. Para isso, clique no botão **+**:
+1) Assim sendo, acesse o seu repositório no [GitHub](https://github.com/) e crie um novo arquivo. Para isso, clique no botão **+**:
 
 ![Capitulo2_Secao4_Figura1](figuras/Capitulo2_Secao4_Figura1.png)
 
@@ -19,7 +19,7 @@ Nesta parte do exemplo, antes de fazer um **Pull**, vamos simular uma situação
 
 3) Digite o conteúdo do arquivo.
 
-4) Se você quiser, digite uma Mensagem de Commit, caso contrário, você pode usar a mensagem padrão do Github.
+4) Se você quiser, digite uma Mensagem de Commit, caso contrário, você pode usar a mensagem padrão do GitHub.
 
 5) Clique no botão **Commit new file**, para finalizar a criação do arquivo:
 
@@ -35,7 +35,7 @@ Nesta parte do exemplo, antes de fazer um **Pull**, vamos simular uma situação
  
 ***
  
-8) Dê um nome para o seu arquivo. Digite o conteúdo dele. E se quiser, digite uma Mensagem de Commit, ou use a mensagem padrão do Github. Clique no botão **Commit new file**:
+8) Dê um nome para o seu arquivo. Digite o conteúdo dele. E se quiser, digite uma Mensagem de Commit, ou use a mensagem padrão do GitHub. Clique no botão **Commit new file**:
 
 ![Capitulo2_Secao4_Figura4](figuras/Capitulo2_Secao4_Figura4.png)
  
@@ -49,9 +49,9 @@ Nesta parte do exemplo, antes de fazer um **Pull**, vamos simular uma situação
  
 1) Agora, abra o seu projeto no **RStudio**.
  
-2) Observe que nem o ``ArquivoGithub1.txt`` ou o ``ArquivoGithub2.txt`` que acabamos de criar no Github aparecem no RStudio.
+2) Observe que nem o ``ArquivoGithub1.txt`` ou o ``ArquivoGithub2.txt`` que acabamos de criar no GitHub aparecem no RStudio.
 
-3) Para que os arquivos apareçam, precisamos fazer um **Pull** do repositório no Github, ou seja, pegar os arquivos que estão no repositório. Para isso, clique no botão **Pull**:
+3) Para que os arquivos apareçam, precisamos fazer um **Pull** do repositório no GitHub, ou seja, pegar os arquivos que estão no repositório. Para isso, clique no botão **Pull**:
 
 ![Capitulo2_Secao4_Figura6](figuras/Capitulo2_Secao4_Figura6.png)
 
@@ -67,4 +67,4 @@ Nesta parte do exemplo, antes de fazer um **Pull**, vamos simular uma situação
 
 ![Capitulo2_Secao4_Figura8](figuras/Capitulo2_Secao4_Figura8.png)
 
-Parabéns! Acabamos de aprender a fazer um **Pull** de um repositório no Github.
+Parabéns! Acabamos de aprender a fazer um **Pull** de um repositório no GitHub.

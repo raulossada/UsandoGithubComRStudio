@@ -1,7 +1,7 @@
 
 # Status
 
-Nesta seção, vamos conhecer mais 2 status que os arquivos podem ter quando trabalhamos com o Github em conjunto com o RStudio: o **Modified** e o **Deleted**.
+Nesta seção, vamos conhecer mais 2 status que os arquivos podem ter quando trabalhamos com o GitHub em conjunto com o RStudio: o **Modified** e o **Deleted**.
 
 1) Primeiro, vamos abrir e editar o arquivo: ``ArquivoGithub1.txt``.
 
@@ -23,12 +23,12 @@ Nesta seção, vamos conhecer mais 2 status que os arquivos podem ter quando tra
 
 ![Capitulo2_Secao5_Figura4](figuras/Capitulo2_Secao5_Figura4.png)
 
-7) Na janela que aparece, escreva uma Mensagem de Commit e então faça o **Commit** e o **Push** dos arquivos para o repositório no Github.
+7) Na janela que aparece, escreva uma Mensagem de Commit e então faça o **Commit** e o **Push** dos arquivos para o repositório no GitHub.
 (Caso tenha esquecido como fazer isso, consulte a [Seção 2.3 - Enviando arquivos à um repositório](example3.md) ):
 
 ![Capitulo2_Secao5_Figura5](figuras/Capitulo2_Secao5_Figura5.png)
 
-8) Por fim, acesse o seu repositório no [Github](https://github.com/) e verifique se as suas alterações estão lá, ou seja, se o ``ArquivoGithub2.txt`` foi deletado:
+8) Por fim, acesse o seu repositório no [GitHub](https://github.com/) e verifique se as suas alterações estão lá, ou seja, se o ``ArquivoGithub2.txt`` foi deletado:
 
 ![Capitulo2_Secao5_Figura6](figuras/Capitulo2_Secao5_Figura6.png)
 
@@ -36,4 +36,4 @@ Nesta seção, vamos conhecer mais 2 status que os arquivos podem ter quando tra
 
 ![Capitulo2_Secao5_Figura7](figuras/Capitulo2_Secao5_Figura7.png)
 
-Parabéns! Com as informações que vimos até agora já sabemos o básico para trabalhar com o RStudio e o Github! Agora é só se divertir!
+Parabéns! Com as informações que vimos até agora já sabemos o básico para trabalhar com o RStudio e o GitHub! Agora é só se divertir!

@@ -2,7 +2,7 @@
 This is the summary of my book.
 
 * [Instalando](section1/README.md)
-    * [Git e Github](section1/example1.md)
+    * [Git e GitHub](section1/example1.md)
     * [R e RStudio](section1/example2.md)
 * [Exemplo de Uso](section2/README.md)
     * [Criando](section2/example1.md)
@@ -11,8 +11,8 @@ This is the summary of my book.
     * [Pegando](section2/example4.md)
     * [Status](section2/example5.md)
 * [Gitbook e RGitbook](section3/README.md)
-    * [Instalando o RGitbook](section3/example1.md)
-    * [Criando um Gitbook](section3/example2.md)
-    * [Estruturando um Gitbook](section3/example3.md)
-    * [Visualizando um Gitbook](section3/example4.md)
-    
+    * [Instalando](section3/example1.md)
+    * [Criando](section3/example2.md)
+    * [Construindo](section3/example3.md)
+    * [Visualizando](section3/example4.md)
+    * [Publicando](section3/example5.md)

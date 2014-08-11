@@ -1,11 +1,11 @@
 
 # Enviando arquivos à um repositório
 
-Quando queremos enviar arquivos de um projeto do RStudio para um repositório do Github, precisamos conhecer dois termos que estão relacionados à esta ação:
+Quando queremos enviar arquivos de um projeto do RStudio para um repositório do GitHub, precisamos conhecer dois termos que estão relacionados à esta ação:
 
 1. **Commit** (do inglês, Submeter). Esse termo é usado quando o Git salva como estão todos os arquivos de um repositório num dado momento. Uma analogia, seria como se o Git tirasse uma foto do conteúdo de todos os arquivos num determinado instante.
 
-2. **Push** (do inglês, Empurrar). Esse termo é usado quando se envia os arquivos do **Commit** para o repositório no Github.
+2. **Push** (do inglês, Empurrar). Esse termo é usado quando se envia os arquivos do **Commit** para o repositório no GitHub.
 
 ## Fazendo um Commit
 
@@ -41,7 +41,7 @@ A seguinte janela irá aparecer, indicando que o **commit** foi realizado e est�
 
 ## Fazendo um Push
 
-Agora, vamos fazer um **Push** para o repositório, ou seja, vamos enviar as alterações realizadas para o repositório no Github.
+Agora, vamos fazer um **Push** para o repositório, ou seja, vamos enviar as alterações realizadas para o repositório no GitHub.
 
 7) Para fazer isso, clique no botão **Push**:
 
@@ -49,7 +49,7 @@ Agora, vamos fazer um **Push** para o repositório, ou seja, vamos enviar as alt
 
 ***
 
-8) A seguinte janela irá aparecer. Nela, digite o seu **Username** (do inglês, Nome de Usuário) do Github. 
+8) A seguinte janela irá aparecer. Nela, digite o seu **Username** (do inglês, Nome de Usuário) do GitHub. 
 
 9) Em seguida, clique em **OK**:
 
@@ -57,7 +57,7 @@ Agora, vamos fazer um **Push** para o repositório, ou seja, vamos enviar as alt
 
 ***
 
-10) Na próxima janela, digite o seu **Password** (do inglês, Senha) do Github.
+10) Na próxima janela, digite o seu **Password** (do inglês, Senha) do GitHub.
 
 11) E clique no botão **OK**:
 
@@ -73,10 +73,10 @@ A seguinte janela irá aparecer, indicando que o **push** foi realizado.
 
 ***
 
-13) Por fim, acesse o seu repositório no [Github](https://github.com/), e, por garantia, verifique se os arquivos estão lá:
+13) Por fim, acesse o seu repositório no [GitHub](https://github.com/), e, por garantia, verifique se os arquivos estão lá:
 
 ![Capitulo2_Secao3_Figura9](figuras/Capitulo2_Secao3_Figura9.png)
 
 Como podemos ver, os arquivos submetidos estão no repositório, e ao lado deles temos a Mensagem de Commit que digitamos anteriormente.
 
-Parabéns! Acabamos de ver como fazer um **commit** e um **push** de arquivos de um projeto do RStudio para um repositório no Github.
+Parabéns! Acabamos de ver como fazer um **commit** e um **push** de arquivos de um projeto do RStudio para um repositório no GitHub.

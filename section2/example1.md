@@ -1,9 +1,9 @@
 
 # Criando um repositório
 
-Nesta seção, vamos ver como criar um novo repositório no Github.
+Nesta seção, vamos ver como criar um novo repositório no GitHub.
 
-1) Acesse a sua conta no [Github](https://github.com/) e selecione a opção **New repository**:
+1) Acesse a sua conta no [GitHub](https://github.com/) e selecione a opção **New repository**:
 
 ![Capitulo2_Secao1_Figura1](figuras/Capitulo2_Secao1_Figura1.png)
 

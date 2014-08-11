@@ -1,7 +1,7 @@
 
 # Associando um repositório
 
-Nesta seção, vamos ver como associar um repositório do Github à um projeto do RStudio.
+Nesta seção, vamos ver como associar um repositório do GitHub à um projeto do RStudio.
 
 1) Abra o **RStudio**. E vá em: **File** -> **New project...** -> **Version Control**:
 
@@ -15,7 +15,7 @@ Nesta seção, vamos ver como associar um repositório do Github à um projeto d
 
 ***
 
-3) Acesse o seu repositório no [Github](https://github.com/) e copie o **HTTPS clone URL**:
+3) Acesse o seu repositório no [GitHub](https://github.com/) e copie o **HTTPS clone URL**:
 
 ![Capitulo2_Secao2_Figura3](figuras/Capitulo2_Secao2_Figura3.png)
 
@@ -33,15 +33,15 @@ Nesta seção, vamos ver como associar um repositório do Github à um projeto d
 
 ***
 
-Parabéns! Conseguimos associar um repositório do Github à um projeto do RStudio!
+Parabéns! Conseguimos associar um repositório do GitHub à um projeto do RStudio!
 
-**Note** que a aba **Git** foi adicionada, ao lado das abas Environment e History. E que o arquivo ``README.md`` foi pego do repositório do Github e salvo localmente no seu computador:
+**Note** que a aba **Git** foi adicionada, ao lado das abas Environment e History. E que o arquivo ``README.md`` foi pego do repositório do GitHub e salvo localmente no seu computador:
 
 ![Capitulo2_Secao2_Figura5](figuras/Capitulo2_Secao2_Figura5.png)
 
 Além disso, foram criados 2 arquivos:
 
-* O ``.gitignore``, que contém uma lista com os arquivos que não serão versionados pelo Github:
+* O ``.gitignore``, que contém uma lista com os arquivos que não serão versionados pelo GitHub:
 ```
 .Rproj.user
 .Rhistory
