@@ -7,43 +7,41 @@ opts_chunk$set(prompt=TRUE, comment='', results='markup')
 
 # end setup chunk
 ```
-# Extra
+# Status
 
-Pelo jeito, você ficou curioso para saber o que faremos com os arquivos que fizemos Pull na seção anterior.
+Nesta seção, vamos conhecer mais 2 status que os arquivos podem ter quando trabalhamos com o Github em conjunto com o RStudio: o **Modified** e o **Deleted**.
 
-Primeiro, vamos editar o arquivo ``ArquivoGithub1.txt``:
+1) Primeiro, vamos abrir e editar o arquivo: ``ArquivoGithub1.txt``.
 
-Observe que após salvar as suas modificações, o arquivo ``ArquivoGithub1.txt`` aparece na aba Git com o status **Modified** (A letra M envolto por uma caixa azul) - [Modificado]; Indicando que o arquivo foi modificado.
+2) Observe que após salvar as nossas modificações, o arquivo ``ArquivoGithub1.txt`` aparece na aba Git com o status **Modified** (do inglês, Modificado - indicando que o arquivo foi modificado):
 
-![RstudioMod1](figuras/FiguraZ_Status_Parte2b.png)
+![Capitulo2_Secao5_Figura1](figuras/Capitulo2_Secao5_Figura1.png)
 
-Agora, marque o arquivo ``ArquivoGithub2.txt``, clique no botão **Delete** e clique no botão **Yes** (Sim), para confirmar a exclusão do arquivo:
+3) Agora, marque o arquivo ``ArquivoGithub2.txt``, clique no botão **Delete** e clique no botão **Yes** (do inglês, Sim), para confirmar a exclusão do arquivo:
 
-![RstudioMod2](figuras/FiguraZ_Status_Parte4b.png)
+![Capitulo2_Secao5_Figura2](figuras/Capitulo2_Secao5_Figura2.png)
 
-Veja que após deletarmos o arquivo, o mesmo aparece na aba Git com o status **Deleted** (A letra D envolta por uma caixa vermelha) - Indicando que o arquivo foi Deletado/Apagado/Excluído:
+4) Veja que após apagarmos o arquivo, o mesmo aparece na aba Git com o status **Deleted** (do inglês, Excluído - indicando que o arquivo foi excluído):
 
-![RstudioMod3](figuras/FiguraZ_Status_Parte5b.png)
+![Capitulo2_Secao5_Figura3](figuras/Capitulo2_Secao5_Figura3.png)
 
-1) Agora, faça o Commit e o Push dos dois arquivos (Caso tenha esquecido como fazer isso, consulte a seção 2.2). E lembre-se de verificar o seu repositório para ver se as suas alterações estão lá.
+5) Parabéns! Agora você conhece mais 2 status dos arquivos no Git. 
 
-2) Agora, na aba Git, marque os dois arquivos e clique em **Commit**:
+6) Agora, **lembre-se** que precisamos fazer o **Commit** e o **Push** para que nossas alterações sejam versionadas no repositório. Para isso, marque os dois arquivos e clique em **Commit**.
 
-3) Parabéns! Agora você conhece mais 2 Status dos arquivos no Git. Agora, vamos fazer o Commit e o Push para que nossas alterações sejam submetidas ao repositório. Para isso, marque os dois arquivos e clique em **Commit**.
+![Capitulo2_Secao5_Figura4](figuras/Capitulo2_Secao5_Figura4.png)
 
-![RstudioMod4](figuras/FiguraZ_Status_Parte6b.png)
+7) Na janela que aparece, escreva uma Mensagem de Commit e então faça o **Commit** e o **Push** dos arquivos para o repositório no Github.
+(Caso tenha esquecido como fazer isso, consulte a [Seção 2.3 - Enviando arquivos à um repositório](example3.md) ):
 
-Na janela que aparece, escreva uma mensagem de commit e então faça o **Commit** e o **Push** dos arquivos para o repositório no Github.
-(Caso tenha esquecido como fazer isso, consulte a seção 2.2):
+![Capitulo2_Secao5_Figura5](figuras/Capitulo2_Secao5_Figura5.png)
 
-![RstudioMod5](figuras/FiguraZ_Status_Parte8b.png)
+8) Por fim, acesse o seu repositório no [Github](https://github.com/) e verifique se as suas alterações estão lá, ou seja, se o ``ArquivoGithub2.txt`` foi deletado:
 
-Por fim, acesse o seu repositório no [Github](https://github.com/) e verifique se as suas alterações estão lá, ou seja, se o ArquivoGithub2.txt foi deletado:
+![Capitulo2_Secao5_Figura6](figuras/Capitulo2_Secao5_Figura6.png)
 
-![RstudioMod6](figuras/FiguraZ_Status_Parte16c.png)
+9) E se o conteúdo do ``ArquivoGithub1.txt`` foi modificado:
 
-E se o ArquivoGithub1.txt foi modificado:
+![Capitulo2_Secao5_Figura7](figuras/Capitulo2_Secao5_Figura7.png)
 
-![RstudioMod7](figuras/FiguraZ_Status_Parte17b.png)
-
-***
+Parabéns! Com as informações que vimos até agora já sabemos o básico para trabalhar com o RStudio e o Github! Agora é só se divertir!

@@ -11,11 +11,13 @@ opts_chunk$set(prompt=TRUE, comment='', results='markup')
 
 O termo relacionado à esta ação é o: 
 
-* **Pull** (do inglês, Puxar). Esse termo é usado quando se pega os arquivos de um repositório no Github e os salva localmente na sua máquina.
++ **Pull** (do inglês, Puxar). Esse termo é usado quando se pega os arquivos de um repositório no Github e os salva localmente na sua máquina.
 
 ***
 
-1) Para esta parte do exemplo, acesse o seu repositório no [Github](https://github.com/) e crie um novo arquivo. Para isso, clique no botão **+**:
+Nesta parte do exemplo, antes de fazer um **Pull**, vamos simular uma situação onde você teve que criar alguns arquivos diretamente no repositório do Github (ou que alguém da sua equipe submeteu alguns arquivos para o repositório).
+
+1) Assim sendo, acesse o seu repositório no [Github](https://github.com/) e crie um novo arquivo. Para isso, clique no botão **+**:
 
 ![Capitulo2_Secao4_Figura1](figuras/Capitulo2_Secao4_Figura1.png)
 
@@ -53,25 +55,24 @@ O termo relacionado à esta ação é o:
  
 ## Fazendo um Pull
  
-Agora, volte para o seu projeto no RStudio.
+1) Agora, abra o seu projeto no **RStudio**.
  
-Observe que nenhum dos 2 arquivos que acabamos de criar no Github aparecem no RStudio.
+2) Observe que nem o ``ArquivoGithub1.txt`` ou o ``ArquivoGithub2.txt`` que acabamos de criar no Github aparecem no RStudio.
 
-Para que os arquivos apareçam, precisamos fazer um **Pull** do repositório no Github, ou seja, pegar os arquivos que estão no repositório. Para isso, clique no botão ``Pull``:
-![Git_Pull6](figuras/FiguraY_Pull_Parte6b.png)
+3) Para que os arquivos apareçam, precisamos fazer um **Pull** do repositório no Github, ou seja, pegar os arquivos que estão no repositório. Para isso, clique no botão **Pull**:
 
-- - -
+![Capitulo2_Secao4_Figura6](figuras/Capitulo2_Secao4_Figura6.png)
 
-A seguinte janela irá aparecer, indicando que o Pull foi realizado com sucesso:
+***
 
-Clique no botão **Close**, para fechar esta janela:
-![Git_Pull7](figuras/FiguraY_Pull_Parte7b.png)
+4) A seguinte janela irá aparecer, indicando que o Pull foi realizado com sucesso. Clique no botão **Close**, para fechar esta janela:
 
-- - -
+![Capitulo2_Secao4_Figura7](figuras/Capitulo2_Secao4_Figura7.png)
 
-Note também que, agora, os arquivos que criamos diretamente no repositório aparecem no RStudio:
-![Git_Pull8](figuras/FiguraY_Pull_Parte8b.png)
+***
 
-- - -
+5) Agora, **note** que os arquivos que criamos diretamente no repositório aparecem no **RStudio**:
 
-Parabéns! Você acaba de aprender como fazer um **Pull** de um repositório no Github.
+![Capitulo2_Secao4_Figura8](figuras/Capitulo2_Secao4_Figura8.png)
+
+Parabéns! Acabamos de aprender a fazer um **Pull** de um repositório no Github.
