@@ -1,5 +1,7 @@
 
-# Associando um repositório à um projeto
+# Associando um repositório
+
+Nesta seção, vamos ver como associar um repositório do Github à um projeto do RStudio.
 
 1) Abra o **RStudio**. E vá em: **File** -> **New project...** -> **Version Control**:
 
@@ -33,7 +35,7 @@
 
 Parabéns! Conseguimos associar um repositório do Github à um projeto do RStudio!
 
-**Note** que a aba **Git** foi adicionada, ao lado as abas Environment e History:
+**Note** que a aba **Git** foi adicionada, ao lado das abas Environment e History. E que o arquivo ``README.md`` foi pego do repositório do Github e salvo localmente no seu computador:
 
 ![Capitulo2_Secao2_Figura5](figuras/Capitulo2_Secao2_Figura5.png)
 

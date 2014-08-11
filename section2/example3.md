@@ -1,69 +1,82 @@
 
-# Fazendo um commit e um push
+# Enviando arquivos à um repositório
 
+Quando queremos enviar arquivos de um projeto do RStudio para um repositório do Github, precisamos conhecer dois termos que estão relacionados à esta ação:
 
-No RStudio, clique na aba **Git**:
+1. **Commit** (do inglês, Submeter). Esse termo é usado quando o Git salva como estão todos os arquivos de um repositório num dado momento. Uma analogia, seria como se o Git tirasse uma foto do conteúdo de todos os arquivos num determinado instante.
 
-![GitCommitPush1](figuras/FiguraX_GitPullCommitPush_Parte1b.png)
+2. **Push** (do inglês, Empurrar). Esse termo é usado quando se envia os arquivos do **Commit** para o repositório no Github.
 
-Note que nesta aba aparecem os arquivos ``.gitignore`` e ``Teste.Rpoj``. E que o **Status** destes dois arquivos é **Untracked** (O Símbolo de interrogação envolto por uma caixa amarela) - Não Rastreado = Não Versionado. 
+## Fazendo um Commit
 
-- - -
+1) No **RStudio**, clique na aba **Git**:
 
-Marque a coluna **Staged** (Organizados) dos dois arquivos, para indicar quais arquivos estão prontos para serem versionados. Note que o **Status** e o símbolo deles mudou para **Added** (A letra A envolvida por uma caixa verde) - Adicionado.
+![Capitulo2_Secao3_Figura1](figuras/Capitulo2_Secao3_Figura1.png)
 
-E clique no botão **Commit**, para indicar que o conjunto de arquivos selecionados anteriormente devem ser versionados:
-![GitCommitPush2](figuras/FiguraX_GitPullCommitPush_Parte2b.png)
+Note que nesta aba aparecem os arquivos ``.gitignore`` e ``Teste.Rpoj``. E que o **Status** (do inglês, Estado) destes dois arquivos é **Untracked** (do inglês, Não Rastreado - indicando que estes arquivos ainda não foram versionados).
 
- - - -
+***
 
-A seguinte janela irá aparecer.
+2) Marque a coluna **Staged** (do inglês, Organizados) dos dois arquivos. Note, que ao fazer isso, o **Status** deles muda para **Added** (do inglês, Adicionado - indicando que estes arquivos estão prontos para serem versionados).
 
-Nela, você obrigatoriamente deve [é obrigado a] digitar uma mensagem de Commit (**Commit message**). A idéia desta mensagem é descrever brevemente as modificações que você pretende versionar.
+3) Clique no botão **Commit**:
 
-Em seguida, clique no botão **Commit**.
-![GitCommitPush3](figuras/FiguraX_GitPullCommitPush_Parte4b.png)
+![Capitulo2_Secao3_Figura2](figuras/Capitulo2_Secao3_Figura2.png)
 
-- - -
+***
 
-A seguinte janela irá aparecer, indicando que o commit foi realizado e está pronto para ser enviado ao repositório.
+4) A seguinte janela irá aparecer. Nela, você deve, obrigatóriamente, digitar uma **Commit message** (do inglês, Mensagem de Commit), cujo objetivo é descrever brevemente as modificações que você acabou de fazer.
 
-Clique no botão **Close** (Fechar), para fechar essa janela.
-![GitCommitPush4](figuras/FiguraX_GitPullCommitPush_Parte5b.png)
+5) Em seguida, clique no botão **Commit**:
 
-- - -
+![Capitulo2_Secao3_Figura3](figuras/Capitulo2_Secao3_Figura3.png)
 
-Agora, vamos fazer um **Push** para o repositório, ou seja, vamos subir as alterações realizadas para o Github.
+***
 
-Para fazer isso, basta clicar no botão **Push**:
-![GitCommitPush5](figuras/FiguraX_GitPullCommitPush_Parte6b.png)
+A seguinte janela irá aparecer, indicando que o **commit** foi realizado e está pronto para ser enviado ao repositório.
 
-- - -
+6) Clique no botão **Close** (do inglês, Fechar), para fechar esta janela.
 
-A seguinte janela irá aparecer, pedindo que você digite o seu ``Nome de Usuário`` (**Username**) do Github. Digite o seu nome de usuário, em seguida, clique no botão **OK**:
-![GitCommitPush6](figuras/FiguraX_GitPullCommitPush_Parte7a.png)
+![Capitulo2_Secao3_Figura4](figuras/Capitulo2_Secao3_Figura4.png)
 
-- - -
+## Fazendo um Push
 
-Na próxima janela, digite a sua ``Senha`` (**Password**) do Github e clique no botão **OK**:
-![GitCommitPush7](figuras/FiguraX_GitPullCommitPush_Parte8a.png)
+Agora, vamos fazer um **Push** para o repositório, ou seja, vamos enviar as alterações realizadas para o repositório no Github.
 
-- - -
+7) Para fazer isso, clique no botão **Push**:
 
-A seguinte janela irá aparecer, indicando que o push foi realizado.
+![Capitulo2_Secao3_Figura5](figuras/Capitulo2_Secao3_Figura5.png)
 
-Clique no botão **Close**, para fechar essa janela.
-![GitCommitPush8](figuras/FiguraX_GitPullCommitPush_Parte9b.png)
+***
 
-- - -
+8) A seguinte janela irá aparecer. Nela, digite o seu **Username** (do inglês, Nome de Usuário) do Github. 
 
-Por fim, acesse a sua conta do [Github](https://github.com/), e verifique se arquivos estão no seu repositório:
-![GitCommitPush9](figuras/FiguraX_GitPullCommitPush_Parte11b.png)
-Como podemos ver, os arquivos submetidos estão no repositório, e ao lado deles temos a mensagem de commit que digitamos anteriormente.
+9) Em seguida, clique em **OK**:
 
-Parabéns! Você acaba de aprender como fazer um commit e um push do RStudio para o seu repositório no Github.
+![Capitulo2_Secao3_Figura6](figuras/Capitulo2_Secao3_Figura6.png)
 
-- - - 
+***
 
+10) Na próxima janela, digite o seu **Password** (do inglês, Senha) do Github.
 
+11) E clique no botão **OK**:
 
+![Capitulo2_Secao3_Figura7](figuras/Capitulo2_Secao3_Figura7.png)
+
+***
+
+A seguinte janela irá aparecer, indicando que o **push** foi realizado.
+
+12) Clique no botão **Close**, para fechar essa janela.
+
+![Capitulo2_Secao3_Figura8](figuras/Capitulo2_Secao3_Figura8.png)
+
+***
+
+13) Por fim, acesse o seu repositório no [Github](https://github.com/), e, por garantia, verifique se os arquivos estão lá:
+
+![Capitulo2_Secao3_Figura9](figuras/Capitulo2_Secao3_Figura9.png)
+
+Como podemos ver, os arquivos submetidos estão no repositório, e ao lado deles temos a Mensagem de Commit que digitamos anteriormente.
+
+Parabéns! Acabamos de ver como fazer um **commit** e um **push** de arquivos de um projeto do RStudio para um repositório no Github.

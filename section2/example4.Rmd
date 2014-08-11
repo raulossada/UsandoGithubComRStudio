@@ -7,40 +7,51 @@ opts_chunk$set(prompt=TRUE, comment='', results='markup')
 
 # end setup chunk
 ```
-# Fazendo um pull
+# Pegando arquivos de um repositório
 
-Nesta parte, acesse o seu repositório no [Github](https://github.com/) e crie um novo arquivo.Para isso, clique no botão **+**:
-![Git_Pull1](figuras/FiguraY_Pull_Parte1b.png)
+O termo relacionado à esta ação é o: 
 
-- - -
+* **Pull** (do inglês, Puxar). Esse termo é usado quando se pega os arquivos de um repositório no Github e os salva localmente na sua máquina.
 
-Nesta tela, dê um nome para o seu arquivo.
+***
 
-Digite o conteúdo do arquivo.
+1) Para esta parte do exemplo, acesse o seu repositório no [Github](https://github.com/) e crie um novo arquivo. Para isso, clique no botão **+**:
 
-Se você quiser, digite uma Mensagem de commit, caso contrário o Github irá criar usar uma mensagem padrão.
+![Capitulo2_Secao4_Figura1](figuras/Capitulo2_Secao4_Figura1.png)
 
-Clique no botão **Commit new file**, para finalizar a criação do arquivo:
-![Git_Pull2](figuras/FiguraY_Pull_Parte2_1b.png)
+***
 
-- - -
+2) Na tela que aparece, dê um nome para o seu arquivo.
+
+3) Digite o conteúdo do arquivo.
+
+4) Se você quiser, digite uma Mensagem de Commit, caso contrário, você pode usar a mensagem padrão do Github.
+
+5) Clique no botão **Commit new file**, para finalizar a criação do arquivo:
+
+![Capitulo2_Secao4_Figura2](figuras/Capitulo2_Secao4_Figura2.png)
+
+***
  
-Você será enviado para a tela inicial do seu repositório, e nele poderá observar que o arquivo foi criado.
+6) Você será enviado para a tela inicial do seu repositório, e nela poderá observar que o arquivo foi criado.
  
-Agora, vamos criar outro arquivo, usando o mesmo procedimento. Clique no botão **+**:
-![Git_Pull3](figuras/FiguraY_Pull_Parte3b.png)
+7) Agora, vamos criar outro arquivo, usando o mesmo procedimento. Clique no botão **+**:
+
+![Capitulo2_Secao4_Figura3](figuras/Capitulo2_Secao4_Figura3.png)
  
-- - -
+***
  
-Dê um nome para o seu arquivo. Digite o conteúdo dele. E se quiser, digite uma mensagem de commit, ou use a mensagem automática do Github. Clique no botão **Commit new file**:
-![Git_Pull4](figuras/FiguraY_Pull_Parte4_1b.png)
+8) Dê um nome para o seu arquivo. Digite o conteúdo dele. E se quiser, digite uma Mensagem de Commit, ou use a mensagem padrão do Github. Clique no botão **Commit new file**:
+
+![Capitulo2_Secao4_Figura4](figuras/Capitulo2_Secao4_Figura4.png)
  
-- - -
+***
  
-Confira se o arquivo foi criado no seu repositório:
-![Git_Pull5](figuras/FiguraY_Pull_Parte5b.png)
+9) Confira se o arquivo foi criado no seu repositório:
+
+![Capitulo2_Secao4_Figura5](figuras/Capitulo2_Secao4_Figura5.png)
  
-- - -
+## Fazendo um Pull
  
 Agora, volte para o seu projeto no RStudio.
  
