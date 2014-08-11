@@ -12,3 +12,7 @@ This is the summary of my book.
     * [Status](section2/example5.md)
 * [Gitbook e RGitbook](section3/README.md)
     * [Instalando o RGitbook](section3/example1.md)
+    * [Criando um Gitbook](section3/example2.md)
+    * [Estruturando um Gitbook](section3/example3.md)
+    * [Visualizando um Gitbook](section3/example4.md)
+    

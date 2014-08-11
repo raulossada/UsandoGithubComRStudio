@@ -1,7 +1,7 @@
 # Usando Github com RStudio
 #### by Raul Ossada
 
-Versão 0.0.6 -- "Coruja Mal-lavada"
+Versão 0.1.0 -- "Coruja Mal-lavada"
 
 ***
 
