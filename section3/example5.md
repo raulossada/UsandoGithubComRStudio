@@ -1,54 +1,92 @@
 
 # Publicando um GitBook
 
-Nesta seção, vamos ver quais são os comandos que a função **publishGitbook()** usa para publicar um **GitBook** pronto no servidor do **GitHub**.
+Nesta seção, vamos ver como publicar um GitBook.
 
-Iremos ver estes comandos, pois até a data de 11/Agosto/2014, a função apresentou alguns problemas para funcionar no RStudio do Windows e do Linux. Assim sendo, tenha tenha certeza de estudar bem os passos a seguir antes de tentá-los.
+1) Faça uma conta no [GitBook](https://www.gitbook.io/).
 
-(**Atenção!** Se você quiser publicar o livro no servidor do **GitBook**, recomenda-se utilizar o [Book Editor do GitBook](https://www.gitbook.io/) para fazer isso).
+2) Acesse a sua conta e clique no botão **+**:
+
+![Capitulo3_Secao5_Figura1](figuras/Capitulo3_Secao5_Figura1.png)
 
 ***
 
-1) Abra o **Git Shell** e mude o seu diretório para a pasta **_book** do seu livro:
+3) Na nova tela, no campo **Title** (do inglês, Título), escreva o título do seu livro. Automaticamente o GitBook irá preencher o campo **Book name** (do inglês, Nome do livro).
 
-```
-cd {{CaminhoAtéAPasta}}/_book
-```
+4) Selecione uma das opções a seguir:
 
-2) Crie um repositório Git local:
++ **Public** (do inglês, Público): Qualquer pessoa pode ver o seu livro e você decide quem pode fazer commit.
 
-```
-git init
-```
++ **Private** (do inglês, Privado): Você decide quem pode ver e fazer commit para o seu livro.
 
-3) Faça um **Commit**:
+Neste exemplo, iremos selecionar a opção **Private**. Vale lembrar que essa opção pode ser alterada depois acessando os **Settings** (do inglês, Configurações) do livro.
 
-```
-git commit --allow-empty -m 'Update built gitbook1'
-```
+5) Se quiser, escreva uma breve descrição do livro no campo **Description** (do inglês, Descrição).
 
-4) Crie um novo galho (do inglês, *Branch*) e mude para ele:
+6) Se quiser, no campo **Categories**, selecione uma ou mais categorias para o seu livro.
 
-```
-git checkout -b gh-pages
-```
+7) Clique no botão **Create Book**:
 
-5) Adicione o conteúdo da pasta ao índice para fazer um **Commit**:
+![Capitulo3_Secao5_Figura2](figuras/Capitulo3_Secao5_Figura2.png)
 
-```
-git add .
-```
+***
 
-6) Faça um **Commit** para esse novo galho:
+Nesta tela, vemos que o espaço para o livro foi criado com sucesso, agora precisamos inserir o seu conteúdo.
 
-```
-git commit -a -m 'Update built gitbook2'
-```
+![Capitulo3_Secao5_Figura3](figuras/Capitulo3_Secao5_Figura3.png)
 
-7) Publique o livro no servidor do GitHub:
+***
 
-```
-git push https://github.com/{{UsuárioDoGitHub/NomeDoRepositório}} gh-pages --force
-```
+8) Baixe e abra o [Book Editor do GitBook](https://www.gitbook.io/editor/download).
 
-Com sorte, o livro foi publicado no servidor do GitHub. Parabéns!
+9) Vá em **File** -> **Open...** e selecione a pasta onde se encontram os arquivos ``README.md`` e ``SUMMARY.md`` do seu livro, para abrir o seu livro:
+
+![Capitulo3_Secao5_Figura4](figuras/Capitulo3_Secao5_Figura4.png)
+
+***
+
+10) Com o livro aberto, vá em **Book** -> **Publish As...**:
+
+![Capitulo3_Secao5_Figura5](figuras/Capitulo3_Secao5_Figura5.png)
+
+***
+
+11) Na janela que aparece, no campo **Book**, selecione o seu livro.
+
+12) E no campo **Version**, digite a versão do seu livro. Neste exemplo, usaremos o [Versionamento Semântico](http://semver.org/lang/pt-BR/), mas você pode usar o estilo de versionamento que quiser.
+
+13) Clique em **OK**:
+
+![Capitulo3_Secao5_Figura6](figuras/Capitulo3_Secao5_Figura6.png)
+
+***
+
+14) Nesta nova janela, clique em **Cancel** para fechá-la:
+
+![Capitulo3_Secao5_Figura7](figuras/Capitulo3_Secao5_Figura7.png)
+
+***
+
+15) Acesse a sua conta no [GitBook](https://www.gitbook.io/). E clique em **Your Books**:
+
+![Capitulo3_Secao5_Figura8](figuras/Capitulo3_Secao5_Figura8.png)
+
+***
+
+16) Nesta tela, clique no seu livro, no caso **Livro Teste**:
+
+![Capitulo3_Secao5_Figura9](figuras/Capitulo3_Secao5_Figura9.png)
+
+***
+
+Nesta tela, como você pode ver essa versão do livro está pronta para leitura. (Caso nem todas as opções do seu livro apareçam, espere alguns minutos e recarregue a página, pois demora um pouco para o servidor do Gitbook montar o livro).
+
+17) Para ler a versão Web do seu livro, clique no botão **Read**:
+
+![Capitulo3_Secao5_Figura10](figuras/Capitulo3_Secao5_Figura10.png)
+
+***
+
+Parabéns! Agora, divirta-se editando o seu livro.
+
+![Capitulo3_Secao5_Figura11](figuras/Capitulo3_Secao5_Figura11.png)
