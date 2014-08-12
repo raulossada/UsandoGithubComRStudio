@@ -87,6 +87,8 @@ Nesta tela, como você pode ver essa versão do livro está pronta para leitura.
 
 ***
 
-Parabéns! Agora, divirta-se editando o seu livro.
+Parabéns! Agora, divirta-se editando e submetendo novas versões do seu livro.
+
+E quando ele estiver pronto, torne-o público, para que todos possam conhecê-lo.
 
 ![Capitulo3_Secao5_Figura11](figuras/Capitulo3_Secao5_Figura11.png)

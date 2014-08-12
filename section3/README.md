@@ -5,7 +5,7 @@
 Neste capítulo, vamos ver como usar o pacote Rgitbook, para criar um GitBook.
 
 ## O que é GitBook?
-[GitBook](https://www.gitbook.io/) é uma ferramenta para criar livros usando o Git e o Markdown, e que pode gerar livros em diversos formatos: **Website** (Padrão), **PDF** e **eBook**.
+GitBook é uma ferramenta para criar livros usando o Git e o Markdown, e que pode gerar livros em diversos formatos: **Website** (Padrão), **PDF** e **eBook**.
 
 ## O que é Markdown?
 Markdown é uma linguagem de marcação, que de forma simples permite converter textos com uma sintaxe específica para HTML.

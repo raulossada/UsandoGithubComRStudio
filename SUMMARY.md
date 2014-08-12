@@ -13,6 +13,6 @@ This is the summary of my book.
 * [Gitbook e RGitbook](section3/README.md)
     * [Instalando](section3/example1.md)
     * [Criando](section3/example2.md)
-    * [Construindo](section3/example3.md)
+    * [Construindo/Atualizando](section3/example3.md)
     * [Visualizando](section3/example4.md)
     * [Publicando](section3/example5.md)
